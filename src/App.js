@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import logo from './Components/logo.jpg';
+import backgroundImage from './Components/background-Image.jpg';
 import './App.css';
-
+import Button from './Components/button';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+  <div style={{backgroundImage:`url(${background-Image})`}}>
+    <div className ="App">
+      <header className= "App-header">
+        <img src={logo} className="logoKotibet" alt="logo"/>  
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to Kotibet
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <backgroundImage/>
+      <Button/>
     </div>
+  </div>  
   );
 }
 
