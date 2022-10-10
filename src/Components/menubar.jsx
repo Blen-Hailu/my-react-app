@@ -1,7 +1,7 @@
 export default function Menubar (){
   return (
     <nav className ="nav">
-      <a href="/" className="home-title">Kotibet</a>
+      <a href="/" className="home-title">Kotibet Home Services</a>
       <ul>
         <li>
           <a href="/home">Home</a>

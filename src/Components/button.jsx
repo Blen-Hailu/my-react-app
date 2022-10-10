@@ -1,11 +1,12 @@
-function Button(props){ 
+function Button(){ 
   function handleClick (event){
     console.log("Button was clicked");
+    alert("Button was clicked!");
   }
    return (
-    <>
-<button onClick ={handleClick}> Subscribe to our mailing list </button>
-</>
+    <>      
+    <button className="main-button" onClick ={handleClick}> Subscribe to our mailing list </button>
+    </>
    )
-};
+}
 export default Button;

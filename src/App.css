@@ -8,11 +8,14 @@
   justify-content : space-between;
   align-items: center;
   gap: 2rem;
-  padding:0rem;
+  padding:0 1rem;
+  height: 100px;
 }
 .home-title{
-  font: size 2rem; ;
-
+  font-size:xx-large;
+  font-weight: 400;
+  display: flex;
+  align-self: center;
 }
 .nav ul{
   padding:0;
