@@ -1,11 +1,11 @@
 function Button(){ 
-  function handleClick (event){
+  function handleButtonClick (event){
     console.log("Button was clicked");
-    alert("Button was clicked!");
+    alert("Thank you!");
   }
    return (
     <>      
-    <button className="main-button" onClick ={handleClick}> Subscribe to our mailing list </button>
+    <button className="main-button" onClick ={handleButtonClick}> Subscribe to our mailing list </button>
     </>
    )
 }

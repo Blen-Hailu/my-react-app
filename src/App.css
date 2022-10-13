@@ -39,27 +39,33 @@ padding: .25rem
   background-color:rgb(95, 224, 231);
 }
 .Geninfo{
-  color: rgba(189, 18, 18, 0.549);
+  color: rgba(24, 23, 26, 0.549);
   font-weight: 400;
   font-family: monospace;
+  font-size:xx-large;
+  padding:15%;
 }
 .main-button{
   color:rgb(11, 14, 14);
   border:none;
-  background-color: cadetblue;
-  padding:
+  background-color: rgb(68, 173, 144);
+  padding: 10px;
+  border-radius: 10px;
+  margin:20%;
 }
 .Customerbutton{
   color:rgb(11, 14, 14);
   border:none;
   background-color: cadetblue;
-  padding:
+  border-radius: 35px;
+  margin-left: 10%;
 }
 .Freelancerbutton{
   color:rgb(11, 14, 14);
   border:none;
   background-color: cadetblue;
-  padding:
+  border-radius: 35px;
+  margin-right: 10%;
 }
 .Freelanceremail{
   display:flex;
@@ -90,4 +96,16 @@ Customeremail{
   border:none;
   color:black
 }
+.Buttontwo{
+  display: flex;
+  justify-content: flex-start;
+  padding:15%;
 
+}
+.Pagelayout{
+  display:flex;
+}
+.buttonone{
+  display:flex;
+  align-items: flex-start;
+}
