@@ -38,3 +38,56 @@ padding: .25rem
 .nav li:hover{
   background-color:rgb(95, 224, 231);
 }
+.Geninfo{
+  color: rgba(189, 18, 18, 0.549);
+  font-weight: 400;
+  font-family: monospace;
+}
+.main-button{
+  color:rgb(11, 14, 14);
+  border:none;
+  background-color: cadetblue;
+  padding:
+}
+.Customerbutton{
+  color:rgb(11, 14, 14);
+  border:none;
+  background-color: cadetblue;
+  padding:
+}
+.Freelancerbutton{
+  color:rgb(11, 14, 14);
+  border:none;
+  background-color: cadetblue;
+  padding:
+}
+.Freelanceremail{
+  display:flex;
+  align-items: flex-start;
+  background-color: rgb(36, 94, 58);
+  border:none;
+  color:black
+}
+Freelancername{
+  display:flex;
+  align-items: flex-start;
+  background-color: rgb(36, 94, 58);
+  border:none;
+  color:black
+}
+.Customername{
+display:flex;
+align-items: flex-start;
+background-color: rgb(36, 94, 58);
+border:none;
+color:black
+
+}
+Customeremail{
+  display:flex;
+  align-items: flex-start;
+  background-color: rgb(36, 94, 58);
+  border:none;
+  color:black
+}
+
