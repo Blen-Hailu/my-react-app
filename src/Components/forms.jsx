@@ -3,13 +3,14 @@ import {useState} from 'react';
 
 function BasicForm(){
 
-  const [fullName, setFullName] =useState('')
-
-  /* const [fullName, setFullName] =useLocalStorageState(
+/* const [fullName, setFullName] =useLocalStorageState(
     'text',
     {defaultValue: ""}
     );
  */
+
+  const [fullName, setFullName] =useState('')
+
   const handleFullNameChange = event => {
     setFullName(event.target.value)
   };
@@ -20,6 +21,11 @@ function BasicForm(){
     setEmail(event.target.value)
   };
 
+  const [role, setRole]= useState ('')
+
+  const handleRoleChange =event => {
+    setRole(event.target.value)
+  }
   const handleSubmit = event => {
     event.preventDefault();
     alert('Thank you!');
@@ -49,6 +55,18 @@ function BasicForm(){
               onChange={handleEmailChange}
               value={email}
             />
+            <label for="roles"> Choose a role</label>
+            <input
+              type="text"
+              name="role"
+              placeholder="Choose from options"
+              onChange={handleRoleChange}
+              list= "myOptions" />
+              <datalist id="myOptions">
+                <option>Customer</option>
+                <option>Freelancer</option>
+              </datalist>
+              
           </div>
           <button type="submit">
             Submit

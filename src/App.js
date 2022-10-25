@@ -1,11 +1,9 @@
-import logo from './Components/logo.jpg';
-import React,{useState} from 'react';
-import backgroundImage from './Components/backgroundImage.jpg';
+import React from 'react';
+//import backgroundImage from './Components/backgroundImage.jpg';
 import './App.css';
 import Menubar from './Components/menubar';
-import Button from './Components/button';
-import Create from './Components/create';
-import {Buttonfortwo} from './Components/Buttonfortwo'
+import Subscribe from './Components/subscribe';
+import BasicForm from './Components/forms';
 import './App.css';
 
 function App() {
@@ -15,31 +13,37 @@ function App() {
 
       <div>
           <Menubar/>
-        </div>
+      </div>
 
-        <div className = "Pagelayout">
+      < div className="Pagelayout">
 
 
             <div className ="Geninfo">
               <p>
-                  KOTIBET is a platform where you can find all home care services in one place to make your home living experience easy, enjoyable and stress free by providing services ranging from customized shopping, food prepping, cooking, appliance fixing, electricity works, plumbing, landscaping, home cleaning etc.<br></br>
+                  Welcome to KOTIBET! <br></br> 
+                  Kotibet is a platform where you can find all home care services in one place to make your home living experience easy, enjoyable and stress free by providing services ranging from customized shopping, food prepping, cooking, appliance fixing, electricity works, plumbing, landscaping, home cleaning etc.<br></br>
                   KOTIBET has the ambitious goal of launching the MVP/MSP by the end of 2022 and acquisition of registered users and professional freelancers on the platform.<br></br>
                   A trusted Partner For Your Ideal Home Servces.<br></br>
                 </p>
+            
             </div>
 
-
-            <div className ="Buttontwo">
-
-              <div>
-                <Buttonfortwo/>
-              </div>
-
-              <div className ="Submitbutton">
-                <Button/>
-              </div>
-
+            <div>
+                <Subscribe/> 
             </div>
+
+            <div className = "Halfpage">
+
+                        <div className ="tocontact">
+                            <p> Contact us to get the best offers! </p>
+                        </div>
+
+                        <div className='Form'>
+                                <BasicForm/>
+                        </div>
+            </div>
+
+                    
 
 
         </div>    
@@ -47,7 +51,7 @@ function App() {
 
       
         
-        <Create/>
+        
         
      </>
 

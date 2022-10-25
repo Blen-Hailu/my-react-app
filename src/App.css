@@ -39,11 +39,26 @@ padding: .25rem
   background-color:rgb(95, 224, 231);
 }
 .Geninfo{
-  color: rgba(24, 23, 26, 0.549);
+  color: rgba(5, 6, 6, 0.549);
   font-weight: 400;
   font-family: monospace;
   font-size:xx-large;
-  padding:15%;
+  padding-top:15%;
+  padding-right:15% ;
+  padding-left: 10%;
+  text-align: justify;
+}
+.Halfpage{
+  flex-direction: row;
+  background-color: darkcyan;
+  padding-top:15%;
+  padding-right:15% ;
+  padding-left: 10%;
+}
+.FormBorder{
+  background-color: rgb(84, 133, 135);
+  border-radius: 7%;
+  block-size: 30%;
 }
 .main-button{
   color:rgb(11, 14, 14);
@@ -65,7 +80,7 @@ padding: .25rem
   border:none;
   background-color: cadetblue;
   border-radius: 35px;
-  margin-right: 10%;
+  margin-left: 10%;
 }
 .Freelanceremail{
   display:flex;
@@ -98,14 +113,23 @@ Customeremail{
 }
 .Buttontwo{
   display: flex;
-  justify-content: flex-start;
-  padding:15%;
-
+  align-items: flex-start;
 }
 .Pagelayout{
   display:flex;
 }
-.buttonone{
-  display:flex;
-  align-items: flex-start;
+
+
+.tocontact{
+  display: flex;
+  align-self: center;
+  font: size 2px;;
+  color: rgb(7, 7, 22);
+  background-color: rgb(118, 126, 119);
+  border-radius: 5%;
+  
+
+}
+.Form{
+  
 }
