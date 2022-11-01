@@ -1,11 +1,9 @@
 import {useState} from "react";
 
 
-export default function Subscribe(props) {
+export default function Subscribe() {
     const [isSubscribe, setIsSubscribe] = useState(false);
-    function handleSubscribeClick(event) {
-      setIsSubscribe (true);
-      
+   
       return (
         <div className="subscribebutton">
           <p ClassName="tosubscribe"> Subscribe to our mailing list here.</p>
@@ -17,7 +15,6 @@ export default function Subscribe(props) {
         </div>
       )
     };
-};
 
 
   
