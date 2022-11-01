@@ -55,12 +55,13 @@ function BasicForm(){
               onChange={handleEmailChange}
               value={email}
             />
-            <label for="roles"> Choose a role</label>
+            <label for="role"> Choose a role</label>
             <input
               type="text"
               name="role"
               placeholder="Choose from options"
               onChange={handleRoleChange}
+              value={role}
               list= "myOptions" />
               <datalist id="myOptions">
                 <option>Customer</option>
