@@ -4,6 +4,7 @@ import './App.css';
 import Menubar from './Components/menubar';
 import Subscribe from './Components/subscribe';
 import BasicForm from './Components/forms';
+import Footer from './Components/footer';
 import './App.css';
 
 function App() {
@@ -16,13 +17,11 @@ function App() {
       </div>
 
       < div className="Pagelayout">
-
-
+        
             <div className ="Geninfo">
               <p>
                   Welcome to KOTIBET! <br></br> 
                   Kotibet is a platform where you can find all home care services in one place to make your home living experience easy, enjoyable and stress free by providing services ranging from customized shopping, food prepping, cooking, appliance fixing, electricity works, plumbing, landscaping, home cleaning etc.<br></br>
-                  KOTIBET has the ambitious goal of launching the MVP/MSP by the end of 2022 and acquisition of registered users and professional freelancers on the platform.<br></br>
                   A trusted Partner For Your Ideal Home Servces.<br></br>
                 </p>
             
@@ -33,7 +32,6 @@ function App() {
             </div>
 
             <div className = "Halfpage">
-
                         <div className ="tocontact">
                             <p> Contact us to get the best offers! </p>
                         </div>
@@ -43,7 +41,9 @@ function App() {
                         </div>
             </div>
 
-                    
+        <div>
+            <Footer/>
+        </div>          
 
 
         </div>    
