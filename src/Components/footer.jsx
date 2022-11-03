@@ -3,14 +3,20 @@ export default function Footer (){
     <nav className ="footer">
       <ul>
         <li>
-        <a href="/Terms and Conditions">Terms and Conditions</a>
+          <a href="/About Us">About Us</a>
          </li>
         <li>
-          <a href="/Privacy Policy">Services</a>
+          <a href="/Help Center">Services</a>
+        </li>
+        <li>
+          <a href="/Terms and Conditions">Terms and Conditions</a>
+        </li>
+        <li>
+          <a href= "/Privacy Policy">Privacy Policy</a>
         </li>
       </ul>
 
     </nav>
     
   );
-};
+}

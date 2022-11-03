@@ -1,23 +1,24 @@
 import {useState} from "react";
+import MailingForm from "./click";
 
 
 export default function Subscribe() {
-    const [isSubscribe, setIsSubscribe] = useState(false);
-   
-      return (
-        <div className="subscribebutton">
-          <p ClassName="tosubscribe"> Subscribe to our mailing list here.</p>
-            <button className= "Subscribebutton" onClick={handleSubscribeClick}>Subscribe</button>
+    const [subscribe, setSubscribe] = useState(false);
+
+
+    function handleSubscribeClick(event) {
+      setSubscribe (!subscribe);
+    }
+    
+      
+    return (
+      <div>
+        <p className="tosubscribe"> Subscribe to our mailing list here.</p>
+          <button className= "Subscribebutton" onClick={handleSubscribeClick}>Subscribe</button>
             
 
-            {isSubscribe && <Subscribe/> }
-            {setIsSubscribe && <p>Back button would be here</p>}
+        {subscribe && <MailingForm/> }
 
-        </div>
-      )
-    };
-
-
-  
-
-
+      </div>
+    );
+}
