@@ -16,37 +16,37 @@ return (
         </div>
 
 
-      < div className="Pagelayout">
-        <div className ="Geninfo">
+      <div className="pagelayout">
+            <div className ="geninfo">
 
-                <div className ="container">
-                  <h2> A trusted Partner For Your Ideal Home Servces.</h2>
+                    <div className ="container">
+                    <h2> A trusted Partner For Your Ideal Home Servces.</h2>
+                    
                 
-            
-                    <div className="text">
-    
-                        <div className="inner">
-                            Welcome to KOTIBET! <br></br> 
-                            Kotibet is a platform where you can find all home care services in one place to make your home living experience easy, enjoyable and stress free.
-                            Our services include:
+                        <div className="text">
         
-                        </div>
-                    </div>
+                            <div className="inner">
+                                Welcome to KOTIBET! <br></br> 
+                                Kotibet is a platform where you can find all home care services in one place to make your home living experience easy, enjoyable and stress free.
+                                Our services include:
             
-                </div>
+                            </div>
+                        </div>
+                
+                    </div>
 
-                <Subscribe/> 
+                    <Subscribe/> 
             </div>
 
-            < div className = "Halfpage">
-                        
-                    <p className ="tocontact"> Contact us to get the best offers! </p>
-                <div className='form'>
-                    <BasicForm/>
-                 </div>
-            </div>         
-        </div>  
-        
+                < div className = "halfpage">
+                            
+                        <p className ="tocontact"> Contact us to get the best offers! </p>
+                    <div className='form'>
+                        <BasicForm/>
+                    </div>
+                </div>         
+            
+        </div>
         <div>
         <Footer/>
         </div>

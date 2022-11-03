@@ -49,7 +49,7 @@ padding: .25rem
   text-align:start;
   flex-wrap: wrap;
 }
-.Halfpage{
+.halfpage{
   flex-direction: row;
   background-color: darkcyan;
   padding-top:15%;
