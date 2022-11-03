@@ -21,21 +21,21 @@ export default function MailingForm() {
 
 return (
     <div>
-        <form onSubmit={handleSubmit}>
+        <form className ="mail-form" onSubmit={handleSubmit}>
           <div>
             <label>Full Name</label>
             <input
               type="text"
               name="fullName"
-              placeholder="Enter Full Name"
+              placeholder="Enter your full name"
               onChange={handleFullNameChange}
               value={fullName}
             />
-            <label>Email address</label>
+            <label>Email Address</label>
             <input
               type="email"
               name="email"
-              placeholder="Enter email"
+              placeholder="Enter your email"
               onChange={handleEmailChange}
               value={email}
             />

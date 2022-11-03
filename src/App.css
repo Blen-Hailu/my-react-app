@@ -39,14 +39,15 @@ padding: .25rem
   background-color:rgb(95, 224, 231);
 }
 .Geninfo{
-  color: rgba(5, 6, 6, 0.549);
+  color: black;
   font-weight: 400;
   font-family: monospace;
   font-size:xx-large;
-  padding-top:15%;
+  padding-top:10%;
   padding-right:15% ;
   padding-left: 10%;
-  text-align: justify;
+  text-align:start;
+  flex-wrap: wrap;
 }
 .Halfpage{
   flex-direction: row;
@@ -61,6 +62,7 @@ padding: .25rem
   block-size: 30%;
 }
 .main-button{
+  font-size: large;
   color:rgb(11, 14, 14);
   border:none;
   background-color: rgb(68, 173, 144);
@@ -68,18 +70,13 @@ padding: .25rem
   border-radius: 10px;
   margin:20%;
 }
-.Customerbutton{
+.subscribebutton{
+  font-size: larger;
   color:rgb(11, 14, 14);
-  border:none;
+  border: 10px;
+  border-color: black;
   background-color: cadetblue;
-  border-radius: 35px;
-  margin-left: 10%;
-}
-.Freelancerbutton{
-  color:rgb(11, 14, 14);
-  border:none;
-  background-color: cadetblue;
-  border-radius: 35px;
+  border-radius: 10px;
   margin-left: 10%;
 }
 .Freelanceremail{
@@ -89,37 +86,9 @@ padding: .25rem
   border:none;
   color:black
 }
-Freelancername{
-  display:flex;
-  align-items: flex-start;
-  background-color: rgb(36, 94, 58);
-  border:none;
-  color:black
-}
-.Customername{
-display:flex;
-align-items: flex-start;
-background-color: rgb(36, 94, 58);
-border:none;
-color:black
-
-}
-Customeremail{
-  display:flex;
-  align-items: flex-start;
-  background-color: rgb(36, 94, 58);
-  border:none;
-  color:black
-}
-.Buttontwo{
-  display: flex;
-  align-items: flex-start;
-}
 .Pagelayout{
   display:flex;
 }
-
-
 .tocontact{
   display: flex;
   align-self: center;
@@ -127,9 +96,112 @@ Customeremail{
   color: rgb(7, 7, 22);
   background-color: rgb(118, 126, 119);
   border-radius: 5%;
-  
-
 }
-.Form{
-  
+.footer{
+  background-color: darkslategray;
+  color: beige;
+  display:flex;
+  justify-content : space-between;
+  align-items: center;
+  gap: 2rem;
+  padding:0 1rem;
+  height: 100px;
+}
+.footer ul{
+  padding:0;
+  margin:0;
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+.footer a{
+color:inherit;
+text-decoration:none;
+height: 100%;
+display:flex;
+align-items:stretch;
+padding: .25rem
+}
+.nav li.active{
+  background-color:cadetblue;
+}
+.nav li.hover{
+  background-color:rgb(95, 224, 231);
+}
+.mail-form{
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+align-self: center;
+text-align: start;
+color: rgb(7, 7, 22);
+background-color: rgb(118, 126, 119);
+border-radius: 5%;
+}
+
+/*CSS style taken from https://freefrontend.com/css-reveal-animations/
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed:700);
+
+.container {
+  max-width: 360px;
+  margin: 90px auto;
+}
+h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 110px;
+  letter-spacing: -0.05em;
+  text-align: center;
+  line-height: 1;
+  color: #013a52;
+  font-family: 'Roboto Condensed', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  transform-origin: center bottom;
+  transition: all 0.4s;
+}
+h2:first-of-type {
+  transform-origin: left top;
+}
+.container:hover h2 {
+  transform: scaleY(0);
+}
+.text {
+  position:absolute;
+  top: 50%;
+  right: 52%;
+  left: 0;
+  font-family: 'Open Sans';
+  transform: translateY(-50%);
+  transition: all 0.5s;
+}
+.text:before, .text:after {
+  display: block;
+  margin: 50px 0;
+  height: 10px;
+  opacity: 0.75;
+  content: '';
+  transition: all 0.3s;
+}
+.text:hover {
+  background: rgb(223, 173, 173);
+}
+.text:hover:before, .text:hover:after {
+  margin: 10;
+}
+.inner {
+  padding: 0 60px;
+  max-height: 0;
+  overflow: hidden;
+  background: white;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+.container:hover .inner {
+  padding: 60px;
+  max-height: 300px;
+  transform: scale(1);
 }

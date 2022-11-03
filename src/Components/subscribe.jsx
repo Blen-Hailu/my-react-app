@@ -14,7 +14,7 @@ export default function Subscribe() {
     return (
       <div>
         <p className="tosubscribe"> Subscribe to our mailing list here.</p>
-          <button className= "Subscribebutton" onClick={handleSubscribeClick}>Subscribe</button>
+          <button className= "subscribebutton" onClick={handleSubscribeClick}>Subscribe</button>
             
 
         {subscribe && <MailingForm/> }

@@ -69,7 +69,7 @@ function BasicForm(){
               </datalist>
               
           </div>
-          <button type="submit">
+          <button type="submit" className = "main-button">
             Submit
           </button>
         </form>

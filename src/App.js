@@ -18,35 +18,38 @@ function App() {
 
       < div className="Pagelayout">
         
-            <div className ="Geninfo">
-              <p>
-                  Welcome to KOTIBET! <br></br> 
-                  Kotibet is a platform where you can find all home care services in one place to make your home living experience easy, enjoyable and stress free by providing services ranging from customized shopping, food prepping, cooking, appliance fixing, electricity works, plumbing, landscaping, home cleaning etc.<br></br>
-                  A trusted Partner For Your Ideal Home Servces.<br></br>
-                </p>
-            
-            </div>
+            < div className ="Geninfo">
 
-            <div>
+                <div className ="container">
+                  <h2> A trusted Partner For Your Ideal Home Servces.</h2>
+                
+            
+                    <div className="text">
+    
+                        <div className="inner">
+                            Welcome to KOTIBET! <br></br> 
+                            Kotibet is a platform where you can find all home care services in one place to make your home living experience easy, enjoyable and stress free.
+                            Our services include:
+        
+                        </div>
+                    </div>
+            
+                </div>
+
                 <Subscribe/> 
             </div>
 
-            <div className = "Halfpage">
-                        <div className ="tocontact">
-                            <p> Contact us to get the best offers! </p>
-                        </div>
-
-                        <div className='Form'>
-                                <BasicForm/>
-                        </div>
-            </div>
-
+            < div className = "Halfpage">
+                        
+                    <p className ="tocontact"> Contact us to get the best offers! </p>
+                <div className='form'>
+                    <BasicForm/>
+                 </div>
+            </div>         
+        </div>  
         <div>
-            <Footer/>
-        </div>          
-
-
-        </div>    
+          <Footer/>
+        </div>   
 
 
       
