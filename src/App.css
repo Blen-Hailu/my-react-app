@@ -38,7 +38,7 @@ padding: .25rem
 .nav li:hover{
   background-color:rgb(95, 224, 231);
 }
-.Geninfo{
+.geninfo{
   color: black;
   font-weight: 400;
   font-family: monospace;
